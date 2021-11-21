@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dating App</title>
+    
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>Online Dating Form</center>
+        </h1>
+    </header>
+
+    <div>
+
+        <form>
+
+            <center>
+                <label for="name" >Enter Your Name:-</label>
+                <input type="text" id="name">
+                <br>
+                <br>
+
+                <label for="email" >Enter Your Email:-</label>
+                <input type="email" id="email">
+                <br>
+                <br>
+
+                <label for="tel" >Enter Your Number:-</label>
+                <input type="tel" id="tel" pattern="[0-9]{10}" required>
+                <br>
+                <br>
+
+                <label >Gender:-</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male" >Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female" >Female</label>
+                <br>
+                <br>
+
+
+                <label for="date" >Date of Proposed Outing:-</label>
+                <input type="date" id="date">
+                <br>
+                <br>
+
+                <label for="apply">Apply to Me:-</label>
+                <br>
+                <label ><input type="checkbox" name="apply">I have tattoos and/or piercing
+                    <input type="checkbox" name="apply" checked>I am more than 2 years older than my daughter </label>
+                <br>
+
+                <label ><input type="checkbox" name="apply">I own a panel van or Ferrari
+                    <input type="checkbox" name="apply" checked>I Work Full Time </label>
+                <br>
+
+                <label ><input type="checkbox" name="apply">My Parents are Rich
+                    <input type="checkbox" name="apply" checked>Is the date at a private/public location </label>
+                <br>
+                <br>
+
+
+
+                <label for="essay" > Essay Selection:- </label>
+                <textarea name="essay" id="essay" cols="30" rows="10"
+                    placeholder="Why do you want to date my daughter(50 words inputs)" maxlength="50"></textarea>
+                <br>
+                <br>
+
+                <label for="refer" >Refernce Form:-</label>
+                <select id="refer" name="refer">Choose Name
+                    <option value="Hemanth">Hemanth</option>
+                    <option value="Viraj">Viraj</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="bank" >Upload Bank Statement</label>
+                <input type="file" id="bank">
+                <br>
+                <br>
+
+                <button>Submit</button>
+
+
+             
+
+            </center>
+
+
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
+

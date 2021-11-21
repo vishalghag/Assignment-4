@@ -1,0 +1,19 @@
+h1 {
+    color: burlywood;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Salo.jpg");
+}
+
+label {
+    font-size: 23px;
+    color: whitesmoke;
+}
+
+input
+{
+    border-radius: 20px;
+    /* width: auto; */
+    
+}
